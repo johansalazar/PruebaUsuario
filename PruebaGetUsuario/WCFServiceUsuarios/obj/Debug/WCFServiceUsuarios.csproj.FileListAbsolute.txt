@@ -1,0 +1,10 @@
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\WCFServiceUsuarios\bin\Debug\WCFServiceUsuarios.dll.config
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\WCFServiceUsuarios\bin\Debug\WCFServiceUsuarios.dll
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\WCFServiceUsuarios\bin\Debug\WCFServiceUsuarios.pdb
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\WCFServiceUsuarios\bin\Debug\ProxyServices.dll
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\WCFServiceUsuarios\bin\Debug\ProxyServices.pdb
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\WCFServiceUsuarios\obj\Debug\WCFServiceUsuarios.csproj.AssemblyReference.cache
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\WCFServiceUsuarios\obj\Debug\WCFServiceUsuarios.csproj.CoreCompileInputs.cache
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\WCFServiceUsuarios\obj\Debug\WCFServiceUsuarios.csproj.CopyComplete
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\WCFServiceUsuarios\obj\Debug\WCFServiceUsuarios.dll
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\WCFServiceUsuarios\obj\Debug\WCFServiceUsuarios.pdb

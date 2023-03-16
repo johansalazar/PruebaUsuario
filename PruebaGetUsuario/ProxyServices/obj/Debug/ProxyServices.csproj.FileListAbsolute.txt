@@ -1,0 +1,6 @@
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\ProxyServices\bin\Debug\ProxyServices.dll
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\ProxyServices\bin\Debug\ProxyServices.pdb
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\ProxyServices\obj\Debug\ProxyServices.csproj.AssemblyReference.cache
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\ProxyServices\obj\Debug\ProxyServices.csproj.CoreCompileInputs.cache
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\ProxyServices\obj\Debug\ProxyServices.dll
+C:\Users\SirGohan\Documents\Visual Studio 2022\Projects\PruebaGetUsuario\ProxyServices\obj\Debug\ProxyServices.pdb

@@ -1,0 +1,82 @@
+﻿@model ProxyServices.Dto.Usuarios
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Editar</h2>
+
+<div>
+    @Html.ActionLink("Regresar", "Index", null, new { @class = "btn btn-sm btn-success" })
+</div>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="row">
+    <h4 class="text-center">Usuarios</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+    <div class="form-group col-6">
+        @Html.LabelFor(model => model.Nombre, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control",@style = "min-width: 100%"  } })
+            @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group col-3">
+        @Html.LabelFor(model => model.FechaNacimiento, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.FechaNacimiento, new {@type = "date", @Value = Model.FechaNacimiento.ToString("yyyy-MM-dd"), @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.FechaNacimiento, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group col-3">
+        @Html.LabelFor(model => model.Sexo, htmlAttributes: new { @class = "control-label col-md-2" })
+        <select class="form-control" id="Sexo" name="Sexo">
+            <option value="">Seleccione el genero</option>
+            @if (Model.Sexo == "M")
+            {
+                <option value="M" selected>Masculino</option>
+            }
+            else
+            {
+                <option value="M">Masculino</option>
+            }
+
+            @if (Model.Sexo == "F")
+            {
+                <option value="F" selected>Femenino</option>
+            }
+            else
+            {
+                <option value="F">Femenino</option>
+            }
+
+        </select>
+    </div>
+    <div class="form-group col-3" hidden>
+        @Html.LabelFor(model => model.Id_Usuario, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Id_Usuario, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Id_Usuario, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <br />
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Guardar" class="btn btn-sm btn-primary" />
+        </div>
+    </div>
+</div>
+}
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
